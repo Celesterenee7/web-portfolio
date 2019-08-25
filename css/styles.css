@@ -4,6 +4,8 @@ a {
     background: transparent !important;
 }
 
+
+
 a,
 button {
     cursor: pointer !important;
@@ -38,6 +40,15 @@ a.small-white-link:before {
     padding: 16px;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 
 header a,
 footer a {
@@ -47,6 +58,10 @@ footer a {
 
 img {
     vertical-align: middle;
+}
+
+.linkedin {
+    margin-left: 25px;
 }
 
 
@@ -61,7 +76,7 @@ li.white-nav a.rollover-underline-black {
 .main-image {
     background: url("../../images/cel-run.jpeg") no-repeat center center;
     background-size: cover;
-    height: 500px;
+    height: 300px;
     text-align: center;
     margin-bottom: 0;
 }
@@ -77,9 +92,7 @@ li.white-nav a.rollover-underline-black {
     min-height: 350px;
 }
 
-.middle {
-    height: 600px;
-}
+.middle {}
 
 .middle-section {
     background: url("../../images/cel-run.jpeg") no-repeat center center;
@@ -106,6 +119,20 @@ nav ul {
     letter-spacing: 1px;
     padding: 10px 12px;
     padding-top: 0;
+}
+
+.nav-bar-title {
+    color: white;
+    font-size: 30px;
+    float: right;
+    padding-right: 50px;
+    padding-top: 8px;
+}
+
+.nav-black-bar-top {
+    min-width: 100%;
+    background-color: #000;
+    height: 55px;
 }
 
 .nav-black-bar .nav-top .left-black-nav,
@@ -231,6 +258,13 @@ nav ul {
     transform: scaleX(0);
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+}
+
+.social-media i {
+    color: white;
+    padding-left: .5em;
+    font-size: 25px;
+    padding-top: 13px;
 }
 
 .supporting {
