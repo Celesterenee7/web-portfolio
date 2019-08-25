@@ -22,7 +22,7 @@ a.small-white-link:before {
 .main-image {
     background: url(https://flybook-v2-saved.s3.amazonaws.com/cd2b3cbe-17ce-4887-9a06-a5f15c360078.jpeg) no-repeat center center;
     background-size: cover;
-    height: 600px;
+    height: 500px;
     text-align: center;
     margin-bottom: 0;
 }
