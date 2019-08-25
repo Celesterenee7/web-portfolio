@@ -46,6 +46,14 @@ footer a {
 }
 
 
+li.white-nav {
+    padding: 20px;
+}
+
+li.white-nav a.rollover-underline-black {
+    padding: 0 0 8px 0 !important;
+}
+
 .main-image {
     background: url(https://flybook-v2-saved.s3.amazonaws.com/cd2b3cbe-17ce-4887-9a06-a5f15c360078.jpeg) no-repeat center center;
     background-size: cover;
@@ -58,6 +66,16 @@ footer a {
     color: rgb(229, 35, 100);
     font-weight: 700;
     font-size: 63px;
+}
+
+.main-row-image {
+    background: url(https://img.vimbly.com/images/full_photos/the-adventure-park-at-sandy-spring-aerial-park-7.jpg);
+    background-size: cover;
+    min-height: 350px;
+}
+
+nav ul {
+    margin: 0;
 }
 
 .nav-black-bar {
@@ -118,7 +136,10 @@ footer a {
     font-weight: 800;
     font-size: 12px;
     letter-spacing: 2px;
+    padding-left: 0px !important;
+    padding-right: 0px !important
 }
+
 
 .nav-container nav {
     margin-top: 50px;
@@ -129,7 +150,6 @@ footer a {
 .nav-container nav a {
     display: inline !important;
 }
-
 
 .nav-container nav.left-nav {
     clear: both;
@@ -171,4 +191,49 @@ footer a {
 
 .no-pad-left {
     padding-left: 0;
+}
+
+.rollover-underline-black {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+.rollover-underline-black:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.rollover-underline-black:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+#MainRowImage1 {
+    background: url("../../images/khaleesi.jpeg");
+}
+
+#MainRowImage2 {
+    background: url("../../images/raven.jpeg");
+}
+
+#MainRowImage3 {
+    background: url("../../images/cel-pic2.jpeg");
 }
