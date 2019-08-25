@@ -92,12 +92,14 @@ li.white-nav a.rollover-underline-black {
     min-height: 350px;
 }
 
-.middle {}
-
 .middle-section {
-    background: url("../../images/cel-run.jpeg") no-repeat center center;
+    background-color: #EFEEEE;
     background-size: cover;
-    height: 400px;
+    height: 350px;
+}
+
+.middle-section p {
+    padding: 100px 200px;
 }
 
 nav ul {
@@ -123,7 +125,7 @@ nav ul {
 
 .nav-bar-title {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     float: right;
     padding-right: 50px;
     padding-top: 8px;
@@ -233,6 +235,10 @@ nav ul {
     padding-left: 0;
 }
 
+.project-pics img {
+    width: 80%;
+}
+
 .rollover-underline-black {
     position: relative;
     color: #000;
@@ -298,17 +304,28 @@ ol {
 
 #MainRowImage1 {
     background: url("../../images/khaleesi.jpeg");
+    background-repeat: no-repeat;
 }
 
 #MainRowImage2 {
     background: url("../../images/raven.jpeg");
+    background-repeat: no-repeat;
 }
 
 #MainRowImage3 {
     background: url("../../images/cel-pic2.jpeg");
+    background-repeat: no-repeat;
 }
 
 
-.project-pics img {
-    width: 80%;
+@media screen and (max-width: 580px) {
+    .main img {
+        width: 70%;
+        height: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .thumbnail {}
 }
