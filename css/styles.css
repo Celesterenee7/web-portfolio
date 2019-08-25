@@ -49,15 +49,17 @@ a.small-white-link:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.footer-social i {
+    color: black;
+    padding: 15px 5px;;
+    font-size: 22px;
 
-header a,
-footer a {
-    white-space: nowrap;
-    color: #000;
 }
 
-img {
-    vertical-align: middle;
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 200;
 }
 
 .linkedin {
@@ -94,13 +96,9 @@ li.white-nav a.rollover-underline-black {
 
 .middle-section {
     background-color: #EFEEEE;
-    background-size: cover;
-    height: 350px;
+    padding: 80px;
 }
 
-.middle-section p {
-    padding: 100px 200px;
-}
 
 nav ul {
     margin: 0;
@@ -303,17 +301,17 @@ ol {
 }
 
 #MainRowImage1 {
+    background: url("../../images/cel-pic2.jpeg");
+    background-repeat: no-repeat;
+}
+
+#MainRowImage3 {
     background: url("../../images/khaleesi.jpeg");
     background-repeat: no-repeat;
 }
 
 #MainRowImage2 {
     background: url("../../images/raven.jpeg");
-    background-repeat: no-repeat;
-}
-
-#MainRowImage3 {
-    background: url("../../images/cel-pic2.jpeg");
     background-repeat: no-repeat;
 }
 
