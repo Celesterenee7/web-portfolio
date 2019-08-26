@@ -1,3 +1,8 @@
+* {
+    font-family: 'Questrial', sans-serif;
+}
+
+
 a {
     color: black;
     text-decoration: none !important;
@@ -32,10 +37,31 @@ a.small-white-link:before {
     transition: all 0.3s ease-in-out 0s;
 }
 
+b,
+strong {
+    font-size: 25px !important;
+}
+
 hr {
     width: 80%;
 }
 
+
+img {
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+img:hover {
+    -webkit-filter: grayscale(100%);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+
+}
 
 .container {
     max-width: 940px;
@@ -67,7 +93,7 @@ hr {
 
 .jumbotron em {
     font-size: 30px !important;
-    color: #014687 !important;
+    color: #59595A !important;
 }
 
 .jumbotron h2 {
@@ -142,8 +168,8 @@ li.white-nav a.rollover-underline-black {
 }
 
 .nav-container nav a {
-    font-weight: 800;
-    font-size: 12px;
+    font-weight: 700;
+    font-size: 15px;
     letter-spacing: 2px;
     padding-left: 0px !important;
     padding-right: 0px !important
@@ -290,27 +316,23 @@ ol {
 #MainRowImage1 {
     background: url("../../images/cel-pic.JPG");
     background-repeat: no-repeat;
+    background-size: cover !important;
 }
 
 #MainRowImage2 {
     background: url("../../images/raven.jpg");
     background-repeat: no-repeat;
+    background-size: cover !important;
 }
 
 #MainRowImage3 {
     background: url("../../images/khaleesi.jpeg");
     background-repeat: no-repeat;
+    background-size: cover !important;
 }
 
-
 @media screen and (max-width: 580px) {
-    .main img {
-        width: 70%;
-        height: auto;
-        text-align: center;
+    .main-row-image {
+        min-height: 550px !important;
     }
-}
-
-@media screen and (max-width: 580px) {
-    .thumbnail {}
 }
