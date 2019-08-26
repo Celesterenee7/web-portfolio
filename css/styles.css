@@ -129,7 +129,7 @@ li.white-nav a.rollover-underline-black {
 }
 
 .main-image {
-    background: url("../../images/coast.jpg") no-repeat center center;
+    background: url("https://flybook-v2-saved.s3.amazonaws.com/8c1e45e6-3dd1-4cde-b145-0d94299f6e7b.jpg") no-repeat center center;
     background-size: cover;
     height: 270px;
     text-align: center;
@@ -314,19 +314,19 @@ ol {
 }
 
 #MainRowImage1 {
-    background: url("../../images/cel-pic.JPG");
+    background: url("https://flybook-v2-saved.s3.amazonaws.com/f927b144-0510-47c7-a48b-46a3e171fe8e.JPG");
     background-repeat: no-repeat;
     background-size: cover !important;
 }
 
 #MainRowImage2 {
-    background: url("../../images/raven.jpg");
+    background: url("https://flybook-v2-saved.s3.amazonaws.com/d286dd10-3346-4914-9160-00b888d0f5ef.jpg");
     background-repeat: no-repeat;
     background-size: cover !important;
 }
 
 #MainRowImage3 {
-    background: url("../../images/khaleesi.jpeg");
+    background: url("https://flybook-v2-saved.s3.amazonaws.com/749a0fc8-b97d-4525-a509-3093f47a5c3c.jpeg");
     background-repeat: no-repeat;
     background-size: cover !important;
 }
