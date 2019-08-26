@@ -8,8 +8,6 @@ This is my first Web Programming Portfolio web page created during week 3 at Epi
 * Clone this repository
 * Open in your preferred editor
 * Control click to open with live server if using VS
-## Known Bugs
-There are a few issues with the photos in the "main" section when viewing on a mobile device.
 ## Support and contact details
 Please contact me directly with any questions or concerns. You can reach me at 541-555-5555
 ## Technologies Used
